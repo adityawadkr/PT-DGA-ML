@@ -59,11 +59,17 @@ Standard Deviation: 0.005
 
 **Confusion Matrix:**
 *This matrix shows the model's accuracy, highlighting where misclassifications occurred.*
-![Random Forest Confusion Matrix](https://i.imgur.com/8a6F5pC.png "Random Forest Confusion Matrix")
+
+
+<img width="733" height="590" alt="image" src="https://github.com/user-attachments/assets/82ba05d4-1af4-411e-ba0e-b304401090ef" />
+)
 
 **Feature Importance:**
 *This chart ranks the features by their contribution to the model's predictions, showing which gases and ratios are most indicative of faults.*
-![Random Forest Feature Importance](https://i.imgur.com/k2gE4Ld.png "Random Forest Feature Importance")
+
+
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/ba5c1474-fd6e-4578-9863-ebbbef5704ef" />
+)
 
 ### 2. Support Vector Machine (SVM)
 
@@ -71,7 +77,11 @@ The SVM model, implemented with a `OneVsRestClassifier` strategy, provides anoth
 
 **Confusion Matrix:**
 *This matrix details the performance of the SVM classifier across the different fault categories.*
-![SVM Confusion Matrix](https://i.imgur.com/gO7hJ3e.png "SVM Confusion Matrix")
+
+
+<img width="733" height="590" alt="image" src="https://github.com/user-attachments/assets/296cde53-a5f6-4956-b7db-d2ca160b347d" />
+)
+
 
 ### 3. Long Short-Term Memory (LSTM) Network
 
@@ -79,11 +89,17 @@ A sequential deep learning model is used to capture potential patterns in the fe
 
 **LSTM Training & Validation Curves:**
 *These plots show the model's accuracy and loss over epochs, helping to identify potential overfitting and confirm model convergence.*
-![LSTM Accuracy and Loss Curves](https://i.imgur.com/uJ1t8rM.png "LSTM Accuracy and Loss Curves")
+
+
+<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/497c4deb-d956-4d97-8e20-3f2ef442c6c9" />
+
 
 **Confusion Matrix:**
 *This matrix shows the final classification performance of the trained LSTM model on the test data.*
-![LSTM Confusion Matrix](https://i.imgur.com/c4hVb6F.png "LSTM Confusion Matrix")
+
+
+<img width="733" height="590" alt="image" src="https://github.com/user-attachments/assets/dc8f3040-d222-40f1-86cf-b6f49e14f041" />
+
 
 ---
 
@@ -91,7 +107,9 @@ A sequential deep learning model is used to capture potential patterns in the fe
 
 This final plot synthesizes the results by overlaying the Receiver Operating Characteristic (ROC) curves for all three models. The Area Under the Curve (AUC) for each class provides a comprehensive measure of each model's diagnostic ability, allowing for a direct and effective comparison.
 
-![Comparative ROC Curve for all models](https://i.imgur.com/sW9p7xN.png "Comparative ROC Curve")
+
+<img width="846" height="701" alt="image" src="https://github.com/user-attachments/assets/064b6a14-a2da-437b-a271-43fc25d15011" />
+
 
 ## 📦 Dependencies
 
